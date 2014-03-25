@@ -1,0 +1,13 @@
+Rafael Couto=rafael.couto@corp.globo.com
+Henrique Magalhaes=rico@corp.globo.com
+Leandro Silva=silva.tux@corp.globo.com
+Fabiano Orempuller=orempuller@corp.globo.com
+Marianna Portella=marianna@corp.globo.com
+Fabio Lira=flira.gestec@corp.globo.com
+Renato Casado=rcasado@corp.globo.com
+Pablo Lemos=pablo@corp.globo.com
+Filipe Paternot=fpaternot@corp.globo.com
+Davi Vagner=davi@corp.globo.com
+Adolfo Suzano=adolfo.suzano@corp.globo.com
+Diego Varela=diego.varela@corp.globo.com
+Gabriel Branco=gabriel@corp.globo.com

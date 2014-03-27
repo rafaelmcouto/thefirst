@@ -1,13 +1,21 @@
 from gera_senha import id_generator
 
-nome = []
-mail = []
+vetor = []
+indice = "@"
 
-with open ('contatos.txt') as contatof:
-    for dados in contatof:
-        (nome, mail) = dados.strip().split('=')
-        senha = id_generator(9)
+def log_and_pass():
+    with open ('contatos.txt') as contatof:
+        for dados in contatof:
+            (nome, mail) = dados.strip().split('=')
+            index_arroba = mail.find(indice)
+            login = mail[0:index_arroba]
+            senha = id_generator(9)
 
-print ("Nome: ", nome)
-print ("Mail: ", mail)
-print ("Senha: ", senha)
+            vetor.append(login)
+            vetor.append(senha)
+
+    return (vetor)        
+
+if __name__ == "__main__":
+    algo = log_and_pass()
+    print (algo)

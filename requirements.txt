@@ -1,0 +1,2 @@
+wsgiref==0.1.2
+zabbix-api==1.0

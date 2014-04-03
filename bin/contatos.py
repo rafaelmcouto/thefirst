@@ -37,4 +37,4 @@ def log_and_pass(filename):
         print ("O arquivo nao foi encontrado " + str(fnfe))
 
 if __name__ == "__main__":
-   algo = log_and_pass("rafael.txt")
+   algo = log_and_pass("arquivo.txt")

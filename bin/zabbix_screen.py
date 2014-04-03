@@ -22,12 +22,12 @@ def debug(msg) :
 
 parser = ArgumentParser(description = 'Create Zabbix Screen with specified criteria')
 
-parser.add_argument('--url', dest = 'url', default = 'http://zabbix.dev.globoi.com/', help = 'Zabbix server address')
-parser.add_argument('-u', '--user', dest = 'user', default = 'Admin', help = 'Zabbix user')
-parser.add_argument('-p', '--password', dest = 'password', default = 'zabbix', help = 'Zabbix password')
-parser.add_argument('-n', '--name', dest = 'name', default = 'Rafael', help = 'Zabbix alias')
-parser.add_argument('-ln', '--last_name', dest = 'last_name', default = 'Couto', help = 'Zabbix last name')
-parser.add_argument('-t', '--team', dest = 'team', default = 'OpBackup', help = 'Zabbix team')
+parser.add_argument('--url', dest = 'url', default = 'http://zabbix.url.com/', help = 'Zabbix server address')
+parser.add_argument('-u', '--user', dest = 'user', default = 'Admin do Zabbix', help = 'Zabbix user')
+parser.add_argument('-p', '--password', dest = 'password', default = 'Senha do Admin', help = 'Zabbix password')
+parser.add_argument('-n', '--name', dest = 'name', default = 'Nome', help = 'Zabbix alias')
+parser.add_argument('-ln', '--last_name', dest = 'last_name', default = 'Sobrenome', help = 'Zabbix last name')
+parser.add_argument('-t', '--team', dest = 'team', default = 'Equipe', help = 'Zabbix team')
 
 args = parser.parse_args()
 
@@ -44,8 +44,8 @@ num = 0
 
 while num < len(info):
     destinatario = 'seumail@gmail.com'
-    para = info[num] + "@seumail.com"
-    mensagem = "Ola " + info[num + 2] + " " + info[num + 3] + ", estamos enviando a sua senha do Zabbix. Seu login e: " + info[num] + " e sua senha e: " + info[num + 1] + ". Acesse atraves da url - http://zabbix.dev.globoi.com"
+    para = info[num] + "nome_do_destinatario@seumail.com"
+    mensagem = "Ola " + info[num + 2] + " " + info[num + 3] + ", estamos enviando a sua senha do Zabbix. Seu login e: " + info[num] + " e sua senha e: " + info[num + 1] + ". Acesse atraves da url - http://zabbix.url.com"
 
     usuario = 'seuemail@gmail.com'
     senha = 'sua_senha' 
